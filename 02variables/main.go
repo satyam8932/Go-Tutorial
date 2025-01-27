@@ -17,4 +17,9 @@ func main() {
 
 	testNum := 10;
 	fmt.Println("Test Number: ", testNum);
+
+	const loginToken string = "sadfjklasdjflkjasdf";
+	fmt.Printf("Variable of Type: %T \n", loginToken);
+
+	testNum = 20;
 }
